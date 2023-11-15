@@ -13,6 +13,11 @@
     "build": "webpack",
     "dev": "webpack --progress --watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devXprite/timesAgo.git"
+  },
+  "homepage": "https://github.com/devXprite/timesAgo",
   "keywords": [],
   "devDependencies": {
     "@babel/cli": "^7.19.3",
