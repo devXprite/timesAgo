@@ -18,6 +18,9 @@
     "url": "https://github.com/devXprite/timesAgo.git"
   },
   "homepage": "https://github.com/devXprite/timesAgo",
+  "engines": {
+    "node": ">=12.0.0"
+  },
   "keywords": [],
   "devDependencies": {
     "@babel/cli": "^7.19.3",
