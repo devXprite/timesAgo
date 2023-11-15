@@ -1,0 +1,28 @@
+{
+  "name": "timesago",
+  "version": "0.0.1-beta.0",
+  "description": "",
+  "main": "./dist/timesago.js",
+  "license": "MIT",
+  "author": {
+    "name": "Prateek Singh",
+    "email": "devXprite@gmail.com"
+  },
+  "scripts": {
+    "test": "mocha",
+    "build": "webpack",
+    "dev": "webpack --progress --watch"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "prettier": "^2.8.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
