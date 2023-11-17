@@ -8,7 +8,7 @@
 Include timesago directly in your HTML file using a CDN:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/timesago@0.0.1/dist/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/timesago@1/dist/index.js"></script>
 ```
 
 ### Package manager
