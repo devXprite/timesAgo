@@ -1,3 +1,3 @@
-const timesAgo = require("../dist/timesago.js");
+const timesAgo = require("../dist");
 
 console.log(timesAgo('December 17, 2011'));

@@ -1,0 +1,14 @@
+{
+    "include": [
+        "src/**/*"
+    ],
+    "compilerOptions": {
+        "allowJs": true,
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        // "outFile": "dist/index",
+        "outDir": "dist",
+        "declarationMap": true,
+        "lib": ["es5", "es6", "dom"]
+    }
+}

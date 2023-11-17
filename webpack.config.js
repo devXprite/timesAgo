@@ -2,8 +2,7 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        "timesago" : path.resolve(__dirname, 'src/index.js'),
-        "timesago.min" : path.resolve(__dirname, 'src/index.js')
+        index : path.resolve(__dirname, 'src/index.js')
     },
     devtool: "source-map",
     output: {

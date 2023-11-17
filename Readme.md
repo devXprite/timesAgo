@@ -8,7 +8,7 @@
 Include timesago directly in your HTML file using a CDN:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/timesago@0.0.1/dist/timesago.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/timesago@0.0.1/dist/index.js"></script>
 ```
 
 ### Package manager
@@ -31,8 +31,7 @@ const timesago = require('timesago');
 You can pass any ISO 8601 formatted dates and times to the timesago function. 
 
 ```javascript
-const date = new Date('December 12, 2021');
-const result = timesago(date);
+const result = timesago('December 12, 2021');
 
 console.log(result); // 2 years ago
 ```
