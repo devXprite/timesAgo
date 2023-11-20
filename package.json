@@ -16,9 +16,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/devXprite/timesAgo.git"
+    "url": "https://github.com/devXprite/timesago.git"
   },
-  "homepage": "https://github.com/devXprite/timesAgo",
+  "homepage": "https://github.com/devXprite/timesago",
   "engines": {
     "node": ">=8.0.0"
   },

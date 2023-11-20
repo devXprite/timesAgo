@@ -15,7 +15,7 @@
  * 
  */
 
-function timesAgo(time, options = {}) {
+function timesago(time, options = {}) {
     const defaultOptions = {
         now: Date.now(),
         prefixFromNow: 'in',
@@ -64,4 +64,4 @@ function timesAgo(time, options = {}) {
     }
 }
 
-module.exports = timesAgo;
+module.exports = timesago;

@@ -10,7 +10,7 @@ module.exports = {
         filename: '[name].js',
         globalObject: 'this',
         library: {
-            name: 'timesAgo',
+            name: 'timesago',
             type: 'umd',
         },
     },

@@ -1,4 +1,4 @@
-export = timesAgo;
+export = timesago;
 /**
  * Converts a timestamp to a human-readable "time ago" format.
  *
@@ -15,7 +15,7 @@ export = timesAgo;
  * console.log(result); // 2 years ago
  *
  */
-declare function timesAgo(time: string | number | Date, options?: {
+declare function timesago(time: string | number | Date, options?: {
     now?: string | number | Date;
     prefixFromNow?: string;
     suffixAgo?: string;
