@@ -1,6 +1,6 @@
 {
   "name": "timesago",
-  "version": "1.0.1-0",
+  "version": "1.0.1",
   "description": "A simple & lightweight js library that make it easy to convert timestamps into human-readable time ago statements (eg. '2 hours ago' or 'in 3 days.')",
   "main": "./dist/timesago.js",
   "types": "./dist/types.d.ts",
