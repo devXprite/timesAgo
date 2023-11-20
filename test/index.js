@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const timesAgo = require('../dist');
+const timesAgo = require('../dist/timesago.js');
 
 describe('timesAgo', () => {
     it('should return justNow for current timestamp', () => {

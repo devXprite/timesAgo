@@ -21,4 +21,4 @@ declare function timesAgo(time: string | number | Date, options?: {
     suffixAgo?: string;
     justNow?: string;
 }): string;
-//# sourceMappingURL=index.d.ts.map
+//# sourceMappingURL=types.d.ts.map

@@ -2,8 +2,8 @@
   "name": "timesago",
   "version": "1.0.0",
   "description": "A simple & lightweight js library that make it easy to convert timestamps into human-readable time ago statements (eg. '2 hours ago' or 'in 3 days.')",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/timesago.js",
+  "types": "./dist/types.d.ts",
   "license": "MIT",
   "author": {
     "name": "Prateek Singh",
@@ -11,7 +11,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "build": "webpack && tsc",
+    "build": "webpack",
     "dev": "webpack --progress --watch"
   },
   "repository": {
@@ -37,8 +37,6 @@
     "babel-loader": "^9.1.0",
     "chai": "^4.3.7",
     "mocha": "^10.2.0",
-    "prettier": "^2.8.1",
-    "typescript": "^5.2.2",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
   }
